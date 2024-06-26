@@ -41,9 +41,16 @@ public class Ejecutor {
         arriendoSesiones.establecerValorAmplificacion(20); // en $
         
         listaArriendos.add(arriendoComida);
+        listaArriendos.add(arriendoComida2);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
         
+        /*
+        En el for que se muestra, itera sobre el arraylist de clase Arriendo,
+        por lo tanto en cada posicion de i no sabemos con certeza que tipo de 
+        dato tenemos, solo sabemos que es una subclase de la super clase en la
+        cual llama a su método abstracto
+        */
         for (int i = 0; i < listaArriendos.size(); i++) {
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto

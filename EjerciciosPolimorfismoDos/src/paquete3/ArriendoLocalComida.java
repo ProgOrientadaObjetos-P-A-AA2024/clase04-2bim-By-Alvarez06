@@ -1,15 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package paquete3;
 
 import paquete2.Arriendo;
-/**
- *
- * @author reroes
- */
+
 public class ArriendoLocalComida extends Arriendo {
     private double valorLuz;
     private double valorAgua;
