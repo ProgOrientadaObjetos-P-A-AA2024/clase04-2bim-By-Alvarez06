@@ -6,6 +6,7 @@
 package paquete4;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 import paquete2.Arriendo;
 import paquete3.ArriendoLocalComercial;
 import paquete3.ArriendoLocalComida;
@@ -13,6 +14,25 @@ import paquete3.ArriendoLocalSesiones;
 
 public class EjecutorDos {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String nombreArrendatario;
+        double cuotaB, valorAdicionalFijo, valorLuz, valorAgua, iva, valorSillas,
+                valorAmplificacion;
+        int cont, opc;
+        
+        System.out.println("Ingrese el numero de locales a ingresar: ");
+        cont = sc.nextInt();
+        for (int i = 0; i < cont; i++) {
+            System.out.println("Ingrese el local deseado: (1) Local Comida"
+                    + " (2) Local Comercial (3) Local Sesiones");
+            opc = sc.nextInt();
+            switch (opc){
+                case 1:
+                    
+                    break;
+            }
+            
+        }
         
         ArrayList<Arriendo> listaArriendos = new ArrayList<>();
         
